@@ -11,10 +11,10 @@ Crie um arquivo .env e insira as variaveis para o frontend:
     <li>REACT_APP_TMDB_KEY = SUA_CHAVE_TMDB</li>
 </ul>
 
-
 e para o backend:
 
-PORT = PORTA_DA_APLICACAO
-FRONT_END_URL = http://localhost:3000
-MONGO_URL = URI_MONGO_DB
-
+<ul>
+    <li>PORT = PORTA_DA_APLICACAO</li>
+    <li>FRONT_END_URL = http://localhost:3000</li>
+    <li>MONGO_URL = URI_MONGO_DB</li>
+</ul>
