@@ -5,9 +5,12 @@ Catálogo de filmes extraído da api TMDB, com sistema de comentários utlizando
 
 Crie um arquivo .env e insira as variaveis para o frontend:
 
-REACT_APP_BASE_URL_BACKEND = http://localhost:3333
-REACT_APP_TMDB_URL = https://api.themoviedb.org/3
-REACT_APP_TMDB_KEY = SUA_CHAVE_TMDB
+<ul>
+    <li>REACT_APP_BASE_URL_BACKEND = http://localhost:3333</li>
+    <li>REACT_APP_TMDB_URL = https://api.themoviedb.org/3</li>
+    <li>REACT_APP_TMDB_KEY = SUA_CHAVE_TMDB</li>
+</ul>
+
 
 e para o backend:
 
