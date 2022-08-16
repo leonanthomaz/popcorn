@@ -4,7 +4,7 @@ import { BiRightArrow, BiLeftArrow } from "react-icons/bi";
 
 export const CardCast = ({ cast }) => {
     const [scrollX, setScrollX] = useState(0)
-
+    console.log(cast)
     const handleLeftArrow = () => {
         let x = scrollX + Math.round(window.innerWidth /2);
         if(x > 0){
@@ -15,9 +15,9 @@ export const CardCast = ({ cast }) => {
 
     const handleRightArrow = () => {
         let x = scrollX - Math.round(window.innerWidth /2);
-        let listw = cast.length * 170;
+        let listw = cast.length * 175;
         if((window.innerWidth - listw) > x) {
-            x = (window.innerWidth - listw) -60;
+            x = (window.innerWidth - listw) -10;
         }
         setScrollX(x);
     }
@@ -35,7 +35,7 @@ export const CardCast = ({ cast }) => {
                     marginLeft: scrollX,
                     width: cast?.length * 180
             }}>
-            { cast && cast.length !== 0 ? cast.map((item, index)=>{
+            { cast && cast.length > 0 ? cast.map((item, index)=>{
               return(
                 <Style.CastRowItem key={index} className='movie-cast2'>
                     <img src={item.profile_path ? `https://image.tmdb.org/t/p/w92/`+item.profile_path : "https://www.ncenet.com/wp-content/uploads/2020/04/no-image-png-2.png"} alt={item.name} width={92} />
