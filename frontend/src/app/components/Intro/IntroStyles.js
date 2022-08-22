@@ -25,6 +25,9 @@ display: flex;
 flex-direction: column;
 justify-content: center;    
 
+@media(max-width: 760px){
+    background: transparent;
+}
 `;
 
 export const FeaturedVertical = styled.div`
@@ -32,7 +35,10 @@ export const FeaturedVertical = styled.div`
 width: inherit;
 height: inherit;
 background: linear-gradient(to top, #141414 10%, transparent 90%);
-        
+  
+@media(max-width: 760px){
+    background: transparent;
+}
 
 `;
 
