@@ -3,8 +3,8 @@
 Catálogo de filmes desenvolvida em React (front) e Node JS (back) criado por [Leonan Thomaz](https://leonanthomaz.vercel.app/)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fleonanthomaz%2Fpopcorn&count_bg=%2379C83D&title_bg=%23555555&icon=tinder.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![GitHub stars](https://img.shields.io/github/stars/popcorn/pegasus?style=social)](https://github.com/login?return_to=%leonanthomaz%popcorn) 
-![GitHub forks](https://img.shields.io/github/forks/popcorn/pegasus?style=social) 
+[![GitHub stars](https://img.shields.io/github/stars/leonanthomaz/popcorn?style=social)](https://github.com/login?return_to=%leonanthomaz%popcorn) 
+![GitHub forks](https://img.shields.io/github/forks/leonanthomaz/popcorn?style=social) 
 
 ## 🖥️ Tecnologias
 
